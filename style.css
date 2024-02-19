@@ -4794,9 +4794,10 @@ body .modal-backdrop {
   font-size: 22px;
   line-height: 30px;
   font-weight: 500;
-  color: #ff5421;
+  color:black;
   margin-bottom: 22px;
   text-transform: uppercase;
+  margin-top: -80px;
 }
 .rs-slider.main-home .slider-content .content-part .sl-title {
   font-size: 70px;
@@ -4810,12 +4811,14 @@ body .modal-backdrop {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 600px;
 }
 .rs-slider.main-home .slider-content.slide2 {
   background: url(./assets/images/bgimage.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 600px;
 }
 .rs-slider.main-home .owl-nav .owl-next,
 .rs-slider.main-home .owl-nav .owl-prev {
@@ -15542,8 +15545,8 @@ body .modal-backdrop {
 }
 .contact-form .form-group {
   margin-bottom: 20px;
+ 
 }
-
 .btn-primary {
   color: black;
    background-color: yellow !important; 
