@@ -4806,13 +4806,13 @@ body .modal-backdrop {
   margin-bottom: 65px;
 }
 .rs-slider.main-home .slider-content.slide1 {
-  background: url(./assets/images/mppsctop.jpg);
+  background: url(./assets/images/bgimage.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .rs-slider.main-home .slider-content.slide2 {
-  background: url(./assets/images/mppsctop.jpg);
+  background: url(./assets/images/bgimage.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15512,12 +15512,15 @@ body .modal-backdrop {
   width: 500px;
   margin: 0 auto;
   padding: 40px 0;
+  box-shadow: gray;
   
 }
 .contact-form form {
-  background:white;
+   background-color:#f4f4f4; 
   padding: 40px;
   border-radius: 6px;
+  box-shadow: gray;
+  
 }
 .hint-text {
   font-size: 15px;
@@ -15542,9 +15545,9 @@ body .modal-backdrop {
 }
 
 .btn-primary {
-  color: rgb(255, 255, 255);
-  background-color: orangered !important;
-  border-color: yellow !important;
+  color: black;
+   background-color: yellow !important; 
+  border-color:black  !important;
 }
 
 .rs-faq-part.style1 .img-part {
@@ -15568,6 +15571,48 @@ body .modal-backdrop {
   animation: pulse512 1.5s infinite;
   color: black;
  }
+ .icon-box {
+  margin-bottom: 30px;
+}
+.bg-primary-soft {
+  background-color:orangered;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.icon-box {
+  margin-bottom: 30px;
+}
+.bg-danger-soft {
+  background-color:orangered;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.text-info {
+  color: orangered!important;
+}
+.icon-box i {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 22px;
+}
+
+a {
+  color: orangered !important;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
  
  @keyframes pulse512 {
   0% {
