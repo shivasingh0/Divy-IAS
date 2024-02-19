@@ -557,9 +557,9 @@ blockquote p {
   color: #4e49a1 !important;
 }
 .readon.orange-btn {
-  color: #ffffff;
-  background: #ff5421;
-  border-color: #ff5421;
+  color:black;
+  background: #f1f904;
+  border-color: #f1f904;
   border-radius: 5px 5px 5px 5px;
   outline: none;
   padding: 12px 35px;
@@ -572,7 +572,7 @@ blockquote p {
   padding: 10px 20px 10px 20px !important;
 }
 .readon.orange-btn.main-home:hover {
-  color: #ffffff;
+  color: white;
   background: #171F32;
   border-color: #171F32;
 }
@@ -4955,6 +4955,12 @@ body .modal-backdrop {
   background-position: center;
   background-position: center top;
 }
+.text-color-white{
+  color: white;
+  font-size: 60px;
+  font-weight: 500px;
+ }
+ 
 /* ------------------------------------
     07. About Section CSS
 ---------------------------------------*/
