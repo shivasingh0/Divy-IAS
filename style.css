@@ -12493,7 +12493,8 @@ body .modal-backdrop {
 }
 .rs-faq-part.style1 .main-part .faq-content .accordion .card .card-header .card-link.collapsed {
   background: #ffffff;
-  color: #111111;
+  /* color: #111111; */
+  color: #ff5421 !important;
 }
 .rs-faq-part.style1 .main-part .faq-content .accordion .card .card-header .card-link.collapsed:after {
   content: "\f0a2";
@@ -12548,6 +12549,7 @@ body .modal-backdrop {
 .rs-faq-part.orange-color .content-part .accordion .card .card-header .card-link,
 .rs-faq-part.orange-color .main-part .faq-content .accordion .card .card-header .card-link {
   background: #ff5421;
+  color: white !important;
 }
 .rs-faq-part.orange-color .content-part .accordion .card .card-header .card-link.collapsed,
 .rs-faq-part.orange-color .main-part .faq-content .accordion .card .card-header .card-link.collapse {
@@ -15231,7 +15233,7 @@ body .modal-backdrop {
 }
 /* -------------------------categories card section---------------------- */
 .card-details {
-  width: 300px;
+  /* width: 300px; */
   height: 350px;
   padding: .8em;
   background: #f5f5f5;
@@ -15246,7 +15248,7 @@ body .modal-backdrop {
  .card-img-details{
   background-color:  #FF5421;
   height: 40%;
-  width: 600%;
+  /* width: 600%; */
   border-radius: .5rem;
   transition: .3s ease;
  }
@@ -15633,7 +15635,7 @@ a {
 
  /* -------------------------categories card section---------------------- */
 .card-details {
-  width: 300px;
+  /* width: 300px; */
   height: 350px;
   padding: .8em;
   background: #f5f5f5;
